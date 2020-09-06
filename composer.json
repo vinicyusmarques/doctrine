@@ -1,0 +1,20 @@
+{
+    "name": "vinicyusmarques/doctrine.com.br",
+    "description": "Curso Doctrine",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vinicyus Marques",
+            "email": "vinicyusmarquess@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7",
+        "doctrine/migrations": "2.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aula\\Doctrine\\": "src/"
+        }
+    }
+}
